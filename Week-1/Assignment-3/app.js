@@ -25,6 +25,11 @@ console.log(countAandB(input1));
 
 console.log(toNumber(input1));
 
+let input2 = ['e', 'd', 'c', 'd', 'e'];
+console.log(countAandB(input2)); 
+console.log(toNumber(input2)); 
+
+
 
 
 
@@ -56,7 +61,7 @@ console.log(toNumber(input1));
 //   // Usage example:
 //   const inputString = ['a', 'b', 'c', 'a', 'c', 'a', 'c'];
 //   const analyzer = new StringAnalyzer(inputString);
-//   console.log(analyzer.countAandB()); // Output: 5
+//   console.log(analyzer.countAandB());
 //   console.log(analyzer.toNumber());
 
 
