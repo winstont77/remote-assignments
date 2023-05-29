@@ -146,7 +146,7 @@ header{
 .fusion-builder-row{
     padding-bottom: 15px;
     display: table;
-    width: 1200px;
+    /* width: 1200px; */
     height: 545px;
     margin-left: auto;
     margin-right: auto;
@@ -166,4 +166,46 @@ header{
 
 [data-margin-top]{
     margin-top: 20px;
+}
+
+.sc-fzoWqW{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.content-boxes{
+    width: 500px;
+    height: fit-content;
+    background-color: #cfdcec;
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.content-boxes img{
+    margin: auto;
+}
+
+@media screen and (min-width:1200px) {
+    .sc-fzoWqW{
+    }
+    
+    .content-boxes{
+        width: 1200px;
+    }
+}
+
+
+.action{
+    display: flex;
+}
+
+.action div{
+    margin: auto;
+    padding: 15px 10px;
+    margin-top: 10px;
+    background-color: #e0edfd;
 }
