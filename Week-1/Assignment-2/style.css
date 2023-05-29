@@ -175,7 +175,7 @@ header{
 }
 
 .content-boxes{
-    width: 500px;
+    /* width: 500px; */
     height: fit-content;
     background-color: #cfdcec;
     display: flex;
