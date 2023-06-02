@@ -37,7 +37,7 @@ console.log(groupByKey(input2));
 document.querySelector('code').innerHTML=`
 function count(input) {
   let obj = {};
-  input.map(index=&lt{
+  input.map(index=&gt{
     obj[index] = (obj[index]||0) + 1;
   })
   return obj
