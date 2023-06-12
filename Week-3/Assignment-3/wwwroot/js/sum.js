@@ -3,5 +3,6 @@ document.querySelector('button').addEventListener('click',e=>{
 
     $.get(`http://localhost:3000/data?number=${input}`, function(data, status){
         console.log(data);
+        document.querySelector('div').innerText = data;
     });
 })
