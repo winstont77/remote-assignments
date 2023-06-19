@@ -95,7 +95,7 @@ class Program
         var calculatorControllerA = new CalculatorController(serviceProvider.GetService<ICalculator>(), "Advanced");
 
         // Call the Calculate method
-        calculatorController.Calculate(5, 3);
+        calculatorControllerA.Calculate(5, 3);
 
     }
 }
