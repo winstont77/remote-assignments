@@ -1,0 +1,24 @@
+﻿@model List<Assignment1.Models.Domain.User>
+@{
+}
+
+<h1>Welcome, Members</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <td>Id</td>
+            <td>Email</td>
+            <td>Password</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var user in Model)
+        {
+            <tr>
+                <td>@user.Id</td>
+                <td>@user.Email</td>
+                <td>@user.Password</td>
+            </tr>
+        }
+    </tbody>
+</table>
